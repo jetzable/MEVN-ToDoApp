@@ -1,0 +1,19 @@
+{
+  "name": "MEVN-ToDoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.8",
+    "npm": "^6.5.0"
+  }
+}
