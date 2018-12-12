@@ -23,6 +23,11 @@ router.put('/:id', async (req, res) => {
     });
 });
 
+router.get('/:id', async (req, res) => {
+    const task = await Task.findById(req.params.id);
+    res.json(task);
+});
+
 
 router.delete('/:id', async (req, res) => {
     await Task.findByIdAndRemove(req.params.id);
